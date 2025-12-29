@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Wordly Dictionary</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="single-page-app.css">
+</head>
+
+<body>
+    <form id="wordlyDictionary" aria-describedby="app-description">
+        <p id="app-description">Welcome to wordly.Learn new words and improve your grammar.</p>
+        <label for="search">Search for a word:</label>
+        <input type="text" id="search" name="search" required>
+        <button type="submit" aria-label="Search for a word definition">Submit</button>
+    </form>
+    <div id="resultsArea" aria-live="polite">
+    </div>
+    <div id="error-message"></div>
+    <script src="single-page-app.js"></script>
+</body>
+
+</html>
