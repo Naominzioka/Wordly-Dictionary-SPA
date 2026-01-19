@@ -11,7 +11,7 @@ A simple single-page app to search for word definitions, examples, and synonyms.
 
 ## How to Use
 
-1. Open `single-page-app.html` in your browser
+1. Open `index.html` in your browser
 2. Type a word in the search box
 3. Click Submit
 4. View the word details below
@@ -24,7 +24,7 @@ A simple single-page app to search for word definitions, examples, and synonyms.
 
 ## Files
 
-- `single-page-app.html` - The page structure
+- `index.html` - The page structure
 - `single-page-app.js` - The app logic (fetches and displays data)
 - `single-page-app.css` - The styling
 - `render-data.js` - Extra functions for rendering (optional)
